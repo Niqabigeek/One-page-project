@@ -56,6 +56,29 @@ a:hover{
     
 }
 
+
+@keyframes moveInLeft{
+    0%{
+        transform: translateX(5rem);
+    }
+
+    100%{
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+        transform: translateY(3rem);
+
+        
+    }
+
+    100%{
+        transform: translate(0);
+    }
+}
+
 #herotext{
     font-size: 48px;
     color: #3f3333;
