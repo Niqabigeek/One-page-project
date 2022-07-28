@@ -83,6 +83,8 @@ a:hover{
     font-size: 48px;
     color: #3f3333;
     cursor: pointer;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
 }
 
 #subheading{
@@ -91,6 +93,9 @@ a:hover{
     padding-top: 10px;
     letter-spacing: 2px;
     cursor: pointer;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+
 }
 
 .btn{
