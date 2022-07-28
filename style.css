@@ -5,10 +5,7 @@
     padding:0;
     box-sizing: border-box;
 }
-@media screen and (max-width: 700px) {
-  .navbar .coloum{
-   flex-direction: column;
-  }
+
 }
 .navbar{
     display: flex;
@@ -55,6 +52,29 @@ a:hover{
     margin-left: 180px;
     
 }
+
+@keyframes moveInLeft{
+    0%{
+        transform: translateX(5rem);
+    }
+
+    100%{
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+        transform: translateY(3rem);
+
+        
+    }
+
+    100%{
+        transform: translate(0);
+    }
+}
+
 
 #herotext{
     font-size: 48px;
