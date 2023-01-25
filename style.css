@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+*,
+*::after,
+*::before{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -18,7 +20,6 @@
 
 .logo{
     cursor: pointer;
-    
 }
 
 
@@ -32,7 +33,6 @@ a{
     text-decoration: none;
     color: #333;
     font-weight: 600;
-
 }
 
 
@@ -50,7 +50,6 @@ a:hover{
 .hero-container{
     margin: 120px;
     margin-left: 180px;
-    
 }
 
 
@@ -80,8 +79,7 @@ a:hover{
     font-size: 48px;
     color: #3f3333;
     cursor: pointer;
-    animation-name: moveInLeft;
-    animation-duration: 2s;
+    animation: moveInLeft 2s;
 }
 
 #subheading{
@@ -90,9 +88,7 @@ a:hover{
     padding-top: 10px;
     letter-spacing: 2px;
     cursor: pointer;
-    animation-name: moveInRight;
-    animation-duration: 2s;
-
+    animation: moveInRight 2s;
 }
 
 .btn{
@@ -114,7 +110,7 @@ a:hover{
 
 #hero{
     background-color: #ddd3c9;
-    background-image: url(img/herro.jpeg);
+    background-image: url("img/herro.jpeg" );
     background-size: contain;
     background-repeat: no-repeat;
     height: 90vh;
